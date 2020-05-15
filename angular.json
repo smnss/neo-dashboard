@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "neo-dashboard"
+    }
+  },
+  "defaultProject": "neo-dashboard",
+  "cli": {
+    "analytics": false
+  }
 }
