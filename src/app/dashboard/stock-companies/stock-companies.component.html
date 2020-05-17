@@ -1,0 +1,4 @@
+<h5 class="mt-4">List of stack companies</h5>
+<cdk-virtual-scroll-viewport style="height: 820px" [itemSize]="9">
+    <div class="text-muted font-weight-lighter" *cdkVirtualFor="let company of companies;"> {{ company.name }} </div>
+</cdk-virtual-scroll-viewport>

@@ -1,0 +1,6 @@
+<h6>Latest Hacker news</h6>
+<ul>
+    <li class="text-muted font-weight-lighter" *ngFor="let item of latestNews">
+        {{ (item | async)?.title }}
+    </li>
+</ul>

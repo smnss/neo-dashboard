@@ -1,0 +1,6 @@
+<h6>Top stories from Hacker news</h6>
+<ul>
+    <li class="text-muted font-weight-lighter" *ngFor="let item of (topNew)">
+        {{ (item | async)?.title }}
+    </li>
+</ul>
