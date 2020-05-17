@@ -1,21 +1,21 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light border">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" [routerLink]="['/dashboard']">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Dashboard</a>
+          <a class="nav-link" [routerLink]="['/dashboard']" routerLinkActive="router-link-active" >Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Alerts</a>
+          <a class="nav-link" [routerLink]="[]">Alerts</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Resources</a>
+            <a class="nav-link" [routerLink]="[]">Resources</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Reports</a>
+          <a class="nav-link" [routerLink]="[]">Reports</a>
         </li>
       </ul>
       <button class="btn btn-secondary">Contact us</button>
